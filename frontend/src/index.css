@@ -1,0 +1,25 @@
+@import "tailwindcss";
+:root {
+  --hm-navy: #0b1f33;
+  --hm-navy-light: #163a59;
+  --hm-gold: #c9a45c;
+  --hm-gold-light: #e2c98f;
+  --hm-cream: #f8f5ee;
+  --hm-white: #ffffff;
+  --hm-text: #17202a;
+  --hm-muted: #667085;
+  --hm-border: #e5e7eb;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--hm-cream);
+  color: var(--hm-text);
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
